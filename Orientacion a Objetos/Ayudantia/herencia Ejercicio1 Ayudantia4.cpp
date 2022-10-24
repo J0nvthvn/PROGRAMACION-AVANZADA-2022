@@ -1,3 +1,18 @@
+/*
+La empresa Toretto vende sus autos hace muuuchos años. Con urgencia le piden a usted
+crear un sistema de venta de sus vehiculos. Un vehiculo se distingue de un color, ruedas,
+cantidad (stock de inventario) y precio. Los tipos de vehiculos y sus particularidades son:
+	+Auto: cantidad de pasajeros y velocidad.
+	+Camion: carga(kg)
+Se pide hacer una funcion que despliegue la informacion estandar de cada vehiculo, y ademas
+la informacion especifica de cada tipo de auto (auto/camion).
+En el main debe crear un arreglo que contenga la clase camion y auto, ademas con el uso del
+arreglo cree un menu que permita:
+	+Vender los vehiculos segun su tipo, en cada venta se debe descontar el stock (stock 
+	inicial es 20 por cada uno), ademas se debe imprimir la informacion al momento de 
+	realizar la venta.
+	+Ver stock actual de cada vehiculo.
+*/
 #include <iostream>
 using namespace std;
 
